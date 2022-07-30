@@ -1,12 +1,12 @@
 
 
 <p align="left">
-<a href="https://www.linkedin.com/in/brian-schilder"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+<a href="https://www.linkedin.com/in/brian-schilder"><img style="border-radius: 50px;" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
 </p>
 
 ### Professional website
 
-<a href="https://bschilder.github.io/BMSchilder/"><img style="height: 200px;"  src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview"></a>
+<a href="https://bschilder.github.io/BMSchilder/"><img style="height: 200px; border-radius: 50px;"  src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview"></a>
 
  
 ---
