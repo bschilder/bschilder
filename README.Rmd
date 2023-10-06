@@ -1,8 +1,8 @@
 ---
-title: ""
+title: " "
 author: ""
 date: ""
-output: rmarkdown::html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -35,11 +35,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ---
  
-## Software 
+## Projects 
+
+A list of software, databases, websites, and other projects that 
+I've created or made significant contributions to. 
 
 ```{r}
-knitr::kable(
-    data.table::fread("~/Desktop/CV/data/tools.csv")
-)
+data.table::fread("~/Desktop/CV/data/tools.csv") |>
+    knitr::kable()
 ```
  
