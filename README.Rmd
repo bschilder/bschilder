@@ -40,7 +40,7 @@ knitr::opts_chunk$set(echo = FALSE)
 A list of software, databases, websites, and other projects that 
 I've created or made significant contributions to. 
 
-```{r}
+```{r, attr.output='style="max-height: 100px;"'}
 data.table::fread("~/Desktop/CV/data/tools.csv") |>
     knitr::kable()
 ```
