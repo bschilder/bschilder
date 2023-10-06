@@ -8,9 +8,11 @@
 
 <a href="https://bschilder.github.io/BMSchilder/"><img style="height: 200px; border-radius: 50px;"  src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview"></a>
 
-### Curriculum Vitae
 
-<a href="https://bschilder.github.io/CV/CV.html"><img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" width="50" height="50">
+
+<a href="https://bschilder.github.io/CV/CV.html">
+ <h3>Curriculum Vitae</h3>
+<img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" width="50" height="50">
 </a>
 
 ---
