@@ -4,14 +4,13 @@
 <a href="https://www.linkedin.com/in/brian-schilder"><img style="border-radius: 50px;" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
 </p>
 
-### Professional website
+### [Professional website](https://bschilder.github.io/BMSchilder)
 
 <a href="https://bschilder.github.io/BMSchilder/"><img style="height: 200px; border-radius: 50px;"  src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview"></a>
 
 
-
-<a href="https://bschilder.github.io/CV/CV.html">
- <h3>Curriculum Vitae</h3>
+### [Curriculum Vitae](https://bschilder.github.io/CV/CV.html)
+<a href="https://bschilder.github.io/CV/CV.html"> 
 <img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" width="50" height="50">
 </a>
 
