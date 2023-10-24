@@ -3,45 +3,57 @@ title: " "
 author: ""
 date: ""
 output: rmarkdown::github_document
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
- 
 
 <p align="left">
-<a href="https://www.linkedin.com/in/brian-schilder"><img style="border-radius: 50px;" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+    <a href="https://www.linkedin.com/in/brian-schilder"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn Badge" style="border-radius: 50px;"/></a>
 </p>
 
-### [Professional website](https://bschilder.github.io/BMSchilder)
+## [Curriculum Vitae](https://bschilder.github.io/CV/CV.html)
 
-<a href="https://bschilder.github.io/BMSchilder/"><img style="height: 200px; border-radius: 50px;"  src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview"></a>
-
-
-### [Curriculum Vitae](https://bschilder.github.io/CV/CV.html)
-<a href="https://bschilder.github.io/CV/CV.html"> 
-<img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" width="50" height="50">
+<a href="https://bschilder.github.io/CV/CV.html">
+<img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" align="center" width="50" height="50" title="Click for interactive version"/>
 </a>
 
----
 
-### 🔥 &nbsp; My Stats
+## [Professional Website](https://bschilder.github.io/BMSchilder)
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=bschilder&theme=dark&background=000000)](https://git.io/streak-stats)
+<a href="https://bschilder.github.io/BMSchilder/">
+<img src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview" style="height: 200px; border-radius: 50px;" align="center"/>
+</a>
 
 
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bschilder&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats) -->
+------------------------------------------------------------------------
 
----
- 
-## Projects 
+## GitHub Stats
 
-A list of software, databases, websites, and other projects that 
-I've created or made significant contributions to. 
+<a href="https://githubtrends.io">
+    <img src="https://api.githubtrends.io/user/svg/bschilder/langs?time_range=one_year&theme=dark" align="center"/>
+</a> <a href="https://githubtrends.io">
+    <img src="https://api.githubtrends.io/user/svg/bschilder/repos?time_range=one_year&group=other&loc_metric=changed&theme=dark" align="center"/>
+</a>
+
+<!-- https://api.githubtrends.io/wrapped/bschilder -->
+</a> <a href="https://www.githubtrends.io/wrapped/bschilder">
+    <img src="./img/github-wrapped.png" align="center"/>
+</a>
+
+
+
+## Projects
+
+A list of software, databases, websites, and other projects that I've
+created or made significant contributions to.
 
 ```{r, attr.output='style="max-height: 100px;"'}
-data.table::fread("~/Desktop/CV/data/tools.csv") |>
+data.table::fread("~/Desktop/CV/cv_data/tools.csv") |>
     knitr::kable()
+    
 ```
- 

@@ -1,28 +1,34 @@
 
 <p align="left">
-<a href="https://www.linkedin.com/in/brian-schilder"><img style="border-radius: 50px;" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+<a href="https://www.linkedin.com/in/brian-schilder"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn Badge" style="border-radius: 50px;"/></a>
 </p>
 
-### [Professional website](https://bschilder.github.io/BMSchilder)
-
-<a href="https://bschilder.github.io/BMSchilder/"><img style="height: 200px; border-radius: 50px;"  src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview"></a>
-
-### [Curriculum Vitae](https://bschilder.github.io/CV/CV.html)
+## [Curriculum Vitae](https://bschilder.github.io/CV/CV.html)
 
 <a href="https://bschilder.github.io/CV/CV.html">
-<img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" width="50" height="50">
+<img src="https://github.com/FortAwesome/Font-Awesome/raw/6.x/svgs/regular/file-lines.svg" align="center" width="50" height="50" title="Click for interactive version"/>
+</a>
+
+## [Professional Website](https://bschilder.github.io/BMSchilder)
+
+<a href="https://bschilder.github.io/BMSchilder/">
+<img src="https://github.com/bschilder/BMSchilder/raw/master/images/preview_image.png" alt="preview" style="height: 200px; border-radius: 50px;" align="center"/>
 </a>
 
 ------------------------------------------------------------------------
 
-### 🔥   My Stats
+## GitHub Stats
 
-[![GitHub
-Streak](http://github-readme-streak-stats.herokuapp.com?user=bschilder&theme=dark&background=000000)](https://git.io/streak-stats)
+<a href="https://githubtrends.io">
+<img src="https://api.githubtrends.io/user/svg/bschilder/langs?time_range=one_year&theme=dark" align="center"/>
+</a> <a href="https://githubtrends.io">
+<img src="https://api.githubtrends.io/user/svg/bschilder/repos?time_range=one_year&group=other&loc_metric=changed&theme=dark" align="center"/>
+</a>
 
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bschilder&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats) -->
+<!-- https://api.githubtrends.io/wrapped/bschilder -->
 
-------------------------------------------------------------------------
+</a> <a href="https://www.githubtrends.io/wrapped/bschilder">
+<img src="./img/github-wrapped.png" align="center"/> </a>
 
 ## Projects
 
@@ -31,6 +37,7 @@ created or made significant contributions to.
 
 | Name                                  | Title                                                                                                                                                                                                        | Authors                                                                                                                           | GitHub                                                                | Link                                                                | PaperLink                                        | Released | OpenSource | Language                            | Type     | Distribution    |
 |:--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:--------------------------------------------------------------------|:-------------------------------------------------|:---------|:-----------|:------------------------------------|:---------|:----------------|
+| autoCV                                | Automatically generate and style your CV from tables.                                                                                                                                                        | BM Schilder                                                                                                                       | <https://github.com/bschilder/autoCV>                                 |                                                                     |                                                  | TRUE     | TRUE       | R, HTML, CSS, JavaScript            | package  | GitHub          |
 | anndataR                              | Bring the power and flexibility of AnnData to the R ecosystem, allowing you to effortlessly manipulate and analyze your single-cell data.                                                                    | R Cannoodt, L Zappia, M Morgan, L Deconinck, D Bredikhin, I Virshup, BM Schilder, C Sang-aram                                     | <https://github.com/scverse/anndataR>                                 |                                                                     |                                                  | TRUE     | TRUE       | R, Python                           | package  | GitHub          |
 | gptPhD                                | Query Large Language Models for the purposes of systematically extracting biomedical knowledge.                                                                                                              | BM Schilder, KB Murphy, NG Skene                                                                                                  | <https://github.com/neurogenomics/gptPhD>                             |                                                                     |                                                  | FALSE    | TRUE       | R                                   | package  | GitHub          |
 | ThreeWayTest                          | Summary statistics-based association test for identifying the pleiotropic effects with set of genetic variants                                                                                               | D Bu, BM Schilder                                                                                                                 | <https://github.com/bschilder/ThreeWayTest>                           |                                                                     |                                                  | TRUE     | TRUE       | R                                   | package  | GitHub          |
@@ -69,7 +76,7 @@ created or made significant contributions to.
 | downloadR                             | Single- and multi-threaded downloading functions                                                                                                                                                             | BM Schilder                                                                                                                       | <https://github.com/RajLabMSSM/downloadR>                             |                                                                     | <https://doi.org/10.1093/bioinformatics/btab658> | TRUE     | TRUE       | R                                   | package  | GitHub          |
 | catalogueR                            | R package for rapid API-access and colocalization of summary statistics from eQTL Catalogue                                                                                                                  | BM Schilder                                                                                                                       | <https://github.com/RajLabMSSM/catalogueR>                            |                                                                     | <https://doi.org/10.1093/bioinformatics/btab658> | TRUE     | TRUE       | R                                   | package  | GitHub          |
 | TopicModeler                          | Proprietary Python package to run advanced topic modeling on text corpuses.                                                                                                                                  | BM Schilder                                                                                                                       | NA                                                                    | NA                                                                  | NA                                               | TRUE     | FALSE      | Python                              | package  | GitHub          |
-| JobReporter                           | Proprietary Python package to extract job postings and company employee listings and generate interactive business intelligence reports.                                                                     | BM Schilder                                                                                                                       | NA                                                                    | NA                                                                  | NA                                               | TRUE     | FALSE      | Python                              | package  | GitHub          |
+| LinkReporter                          | Proprietary Python package to extract job postings and company employee listings from LinkedIn and generate interactive business intelligence reports.                                                       | BM Schilder                                                                                                                       | NA                                                                    | NA                                                                  | NA                                               | TRUE     | FALSE      | Python                              | package  | GitHub          |
 | PubReporter                           | Proprietary Python package for extract relevant scientific literature, gather citations, and generate interactive business intelligence reports.                                                             | BM Schilder                                                                                                                       | NA                                                                    | NA                                                                  | NA                                               | TRUE     | FALSE      | Python                              | package  | GitHub          |
 | Rare Disease Celltyping Portal        | Web portal connecting to multiple R Shiny apps to explore, visualize, and download cell type-specific enrichment results and systematically prioritised gene targets for over 6,000 rare disease phenotypes. | R Gordon-Smith, BM Schilder                                                                                                       | <https://github.com/neurogenomics/rare_disease_celltyping_apps>       | <https://neurogenomics.github.io/rare_disease_celltyping_apps/home> | <https://doi.org/10.1101/2023.02.13.23285820>    | TRUE     | TRUE       | R                                   | database | shinyapps.io    |
 | Parkinson’s Disease Omics Review      | Data and code associated with the Parkinson’s Disease review paper by Schilder, Navarro & Raj (Neurobiology of Disease, 2021)                                                                                | BM Schilder, E Navarro, T Raj                                                                                                     | <https://github.com/RajLabMSSM/PD_omics_review>                       | <https://rajlabmssm.github.io/PD_omics_review/>                     | <https://doi.org/10.1016/j.nbd.2021.105580>      | TRUE     | TRUE       | R                                   | database | GitHub          |
