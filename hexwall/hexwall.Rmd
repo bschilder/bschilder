@@ -1,0 +1,72 @@
+---
+title: "hexwall"
+author: "Brian M. Schilder"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r, setup, include=TRUE}
+if(!require("echogithub")) remotes::install_github("RajLabMSSM/echogithub")
+```
+
+Tutorials:
+- https://www.mitchelloharawild.com/blog/hexwall/
+- https://www.mitchelloharawild.com/blog/user-2018-feature-wall/
+
+
+# List packages
+
+```{r}
+tools <- data.table::fread("https://github.com/bschilder/CV/raw/main/cv_data/tools.csv")
+```
+
+# Download hex stickers
+
+```{r}
+tools <- tools[Type=="package" & grepl("R",Language) & !is.na(GitHub),]
+tools[,c("owner","repo"):=data.table::tstrsplit(GitHub,"/",fixed=TRUE, keep = c(4,5))]
+tools[,hex_file:=echogithub::github_files(owner = owner,
+                                          repo = repo,
+                                          branch = c("main","master"),
+                                          download = TRUE,
+                                          download_dir = here::here("hexwall/stickers",repo),
+                                          query = "inst/hex/hex.png"),
+      by="Name"] 
+## Get local paths
+sticker_files <- list.files(here::here("hexwall/stickers"),
+                            recursive = TRUE, pattern = "hex\\.", full.names = TRUE)
+```
+
+
+# Find hex stickers 
+
+```{r}
+source(here::here("hexwall","hexwall.R"))
+# coords <- hexbin::hexcoords(1,1.,n=length(sticker_files)/6) |> as.data.frame()
+
+img <- hexwall(sticker_files = sticker_files,
+        sort_mode = "color",
+        sticker_row_size = 8, 
+        sticker_width = 500)
+magick::image_write(img, 
+                    quality = 100,
+                    here::here("hexwall","hexwall.png"))
+print(img)
+```
+
+
+# Get coordinates
+```{r}
+
+library(tidyverse)
+library(raster)
+library(sf)
+aus <- raster::getData("GADM", country = "AUS", level = 0) %>%
+  # disaggregate() %>%
+  geometry()
+hex_points <- aus %>%
+  spsample(type = "hexagonal", cellsize = 2)
+
+as_tibble(hex_points@coords)
+```
+

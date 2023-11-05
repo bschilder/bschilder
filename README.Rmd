@@ -47,7 +47,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-## Projects
+## Projects 
+
+## R Packages
+
+<img src="./hexwall/hexwall.png" align="center"/>
+
+## All Projects
 
 A list of software, databases, websites, and other projects that I've
 created or made significant contributions to.
