@@ -19,24 +19,32 @@
 
 ## GitHub Stats
 
+### Summary
+
 <a href="https://githubtrends.io">
 <img src="https://api.githubtrends.io/user/svg/bschilder/langs?time_range=one_year&theme=dark" align="center"/>
 </a> <a href="https://githubtrends.io">
 <img src="https://api.githubtrends.io/user/svg/bschilder/repos?time_range=one_year&group=other&loc_metric=changed&theme=dark" align="center"/>
 </a>
 
-<!-- https://api.githubtrends.io/wrapped/bschilder -->
+### Full Report
 
+<details>
+<summary>
+📋
+</summary>
+<!-- https://api.githubtrends.io/wrapped/bschilder -->
 </a> <a href="https://www.githubtrends.io/wrapped/bschilder">
 <img src="./img/github-wrapped.png" align="center"/> </a>
+</details>
 
 ## Projects
 
-## R Packages
+### R Packages
 
 <img src="./hexwall/hexwall.png" align="center"/>
 
-## All Projects
+### All Projects
 
 A list of software, databases, websites, and other projects that I’ve
 created or made significant contributions to.
