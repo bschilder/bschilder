@@ -40,14 +40,14 @@
 
 ## Projects
 
+A list of software, databases, websites, and other projects that I’ve
+created or made significant contributions to.
+
 ### R Packages
 
 <img src="./hexwall/hexwall.png" align="center"/>
 
 ### All Projects
-
-A list of software, databases, websites, and other projects that I’ve
-created or made significant contributions to.
 
 | Name                                  | Title                                                                                                                                                                                                        | Authors                                                                                                                           | GitHub                                                                | Link                                                                | PaperLink                                        | Released | OpenSource | Language                            | Type     | Distribution    |
 |:--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:--------------------------------------------------------------------|:-------------------------------------------------|:---------|:-----------|:------------------------------------|:---------|:----------------|
